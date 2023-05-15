@@ -1,0 +1,117 @@
+/*
+ * Criado e desenvolvido por 7UWeb Sistemas
+ * Desenvolvedor Eliton Campos Silva
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    scrollbar-color: var(--gray-dark);
+    scrollbar-width: thin;
+    background-color: var(--light-gray);
+    color: #3E3E3E;
+    width: 100%;
+    position: relative;
+}
+
+.print_none{
+    display: none;
+}
+
+a{
+    display: none;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.schedule-client--data{
+    width: 100%;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #000;
+}
+
+.menu_data{
+    margin-bottom: 8px;
+}
+
+.table_header{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table_data{
+    width: 100%;
+    border: 1px solid #000;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.table-line{
+    width: 100%;
+    display: flex;
+}
+
+.data_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flash_info{
+    margin-top: 10px;
+}
+
+.table-40{
+    width: 40%;
+}
+
+.table-35{
+    width: 35%;
+}
+
+.table-30{
+    width: 30%;
+}
+
+.table-25{
+    width: 25%;
+}
+
+.table-20{
+    width: 20%;
+}
+
+.table-15{
+    width: 15%;
+}
+
+.table-10{
+    width: 10%;
+}
+
+.w-100{
+    width: 100%;
+    font-size: 0.65rem;
+}

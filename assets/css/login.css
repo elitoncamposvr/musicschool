@@ -1,0 +1,105 @@
+/*!
+ * Criado e desenvolvido por 9Web Sistemas
+ * Desenvolvedor Eliton Campos Silva
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+:root {
+    --primary: #c0392b;
+    --secondary: #e74c3c;
+    --tertiary: #F7F0E8;
+    --success: #5cb377;
+    --danger: #e63946;
+    --warning: #EEBF41;
+    --info: #5b99ea;   
+    --gray: #6c757d;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scrollbar-color: var(--gray-dark);
+    scrollbar-width: thin;
+    /* background-color: #eee; */
+    color: #6c757d;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: var(--tertiary);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container img {
+    max-width: 200px;
+    margin-bottom: 50px;
+}
+
+input[type=text],
+input[type=password] {
+    font-size: 0.8em;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--gray);
+    outline: 0;
+    background: transparent;
+}
+
+button {
+    padding: 15px 50px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--secondary);
+    color: #FFF;
+}
+
+p {
+    text-align: center;
+}
+
+.warning {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    color: red;
+}
+
+#warning_caps {
+    border: 2px solid var(--warning);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    color: var(--warning);
+    display: none;
+}
